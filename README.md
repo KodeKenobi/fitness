@@ -56,6 +56,6 @@ Given the constraints of a rapid implementation, the following trade-offs were m
 ---
 
 ## 4. Submission Guidelines
-- **GitHub Repository**: [Link to private repository]
+- **GitHub Repository**: [https://github.com/KodeKenobi/fitness.git](https://github.com/KodeKenobi/fitness.git)
 - **Documentation**: This README covers the core operational and architectural details. 
 - **Tests**: Comprehensive unit and integration tests are located in `backend/tests`. Run them via `npm run test` in the backend folder.
