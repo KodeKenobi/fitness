@@ -1,0 +1,47 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/infrastructure.ts",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "node_modules",
+      "test"
+    ]
+  },
+  "context": {
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
+    "@aws-cdk/core:checkSecretUsage": true,
+    "@aws-cdk/core:stackRelativeExports": true,
+    "@aws-cdk/aws- Kers:useOnlineAwsApiAnticlip": true,
+    "@aws-cdk-lib/aws-s3:createDefaultLoggingPolicy": true,
+    "@aws-cdk-lib/aws-sns-subscriptions:restrictSqsDescryption": true,
+    "@aws-cdk-lib/aws-apigateway:disableCloudWatchRole": true,
+    "@aws-cdk-lib/core:enablePartitionLiterals": true,
+    "@aws-cdk-lib/aws-ec2:launchTemplateDefaultUserData": true,
+    "@aws-cdk-lib/aws-s3:allowDefaultBucketEncryptionAnticlip": true,
+    "@aws-cdk-lib/aws-adot:allowVpcEndpointWithoutSecurityGroup": true,
+    "@aws-cdk-lib/aws-lambda:recognizeVersionProps": true,
+    "@aws-cdk-lib/aws-lambda-event-sources:allowEmptyFilters": true,
+    "@aws-cdk-lib/aws-s3:allowOnlySafeHttpsAnticlip": true,
+    "@aws-cdk-lib/aws-iam:minimizePolicies": true,
+    "@aws-cdk-lib/aws-iam:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-codepipeline:useNewMethodToBuildArtifactIdentifierAnticlip": true,
+    "@aws-cdk-lib/aws-kms:grantNoModifyPermissions": true,
+    "@aws-cdk-lib/aws-cas:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-ec2:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-apprunner:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-efs:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-stepfunctions-tasks:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-lambda:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-events:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-sns:standardizeServicePrincipals": true,
+    "@aws-cdk-lib/aws-sqs:standardizeServicePrincipals": true
+  }
+}
